@@ -1,0 +1,31 @@
+[1mdiff --git a/blogpost.html b/blogpost.html[m
+[1mindex cf618e6..d373bd1 100644[m
+[1m--- a/blogpost.html[m
+[1m+++ b/blogpost.html[m
+[36m@@ -1,9 +1,10 @@[m
+ <html>[m
+   <head>[m
+     <title>El titulo del post</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="css/estilos.css"[m
+   </head>[m
+   <body>[m
+     <h1>Aqui vamos a hacer un blog post</h1>[m
+[31m-    <p>Y este es el parrafo de inicio</p>[m
+[32m+[m[32m    <p>Y este es el parrafo de inicio </p>[m
+   </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/estilos.css b/estilos.css[m
+[1mindex 482c84d..34e3b1f 100644[m
+[1m--- a/estilos.css[m
+[1m+++ b/estilos.css[m
+[36m@@ -1 +1,6 @@[m
+[31m-estilos.css[m
+\ No newline at end of file[m
+[32m+[m[32mbody[m
+[32m+[m[32m{[m
+[32m+[m[32m  color:deeppink;[m
+[32m+[m[32m  text-align : center;[m
+[32m+[m[32m  font-family : "Arial";[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
